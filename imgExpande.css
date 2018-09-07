@@ -1,0 +1,19 @@
+
+
+
+.imgExpande {
+list-style: none;
+padding: 0;
+}
+.imgExpande li {
+display: inline;
+}
+.imgExpande li img {
+width: 240px; /* Aqui é o tamanho da imagem */
+margin-left: 10px; /* Espaço entre as imagem */
+}
+.imgExpande li img:hover {
+-moz-transform: scale(1.2);
+-webkit-transform: scale(1.2);
+-o-transform: scale(1.2);
+}
